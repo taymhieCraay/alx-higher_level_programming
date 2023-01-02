@@ -1,4 +1,5 @@
-.py
+#!/usr/bin/python3
+# 101-nqueens.py
 
 """Solves the N-queens puzzle.
 
