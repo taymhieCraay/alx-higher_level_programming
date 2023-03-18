@@ -1,14 +1,20 @@
 #!/usr/bin/python3
-"""
-A function that prints My name is <first name> <last name>
-"""
+# 3-say_my_name.py
+# Naheemah Bello
+"""Defines a name-printing function."""
 
 
 def say_my_name(first_name, last_name=""):
-    """function that print complete name"""
-    if type(first_name) != str or first_name == "":
+    """Print a name.
+
+    Args:
+        first_name (str): The first name to print.
+        last_name (str): The last name to print.
+    Raises:
+        TypeError: If either of first_name or last_name are not strings.
+    """
+    if not isinstance(first_name, str):
         raise TypeError("first_name must be a string")
-    if type(last_name) != str:
+    if not isinstance(last_name, str):
         raise TypeError("last_name must be a string")
-    """print(f"{My name is {first_name} {last_name}")"""
     print("My name is {} {}".format(first_name, last_name))

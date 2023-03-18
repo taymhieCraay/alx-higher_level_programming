@@ -1,8 +1,13 @@
 # Python - Everything is object
 
+In this project, I studied object instantiation in Python, delving into
+variable aliasing and object identifiers, types, and mutability. The project
+involved a series of quiz-like questions the answers to which I provided in
+single-line `.txt` files.
+
 ## Tests :heavy_check_mark:
 
-* [tests](./tests): Folder of test files. 
+* [tests](./tests): Folder of test files. Provided by Holberton School.
 
 ## Tasks :page_with_curl:
 
@@ -53,7 +58,7 @@
 * **7. Is the same**
   * [7-answer.txt](./7-answer.txt): What do these 3 lines print?
 ```
->>> s1 = "Best School"
+>>> s1 = "Best"
 >>> s2 = s1
 >>> print(s1 is s2)
 ```
@@ -234,7 +239,7 @@ a is b
 
 * **29. #pythonic**
   * [100-magic_string.py](./100-magic_string.py): Python function `magic_string()` that returns the
-string `"BESTSCHOOL"` n times the number of iteration.
+string `"School"` n times the number of iteration.
 
 * **30. Low memory cost**
   * [101-locked_class.py](./101-locked_class.py): Python class `LockedClass` with no attributes that
@@ -291,9 +296,9 @@ to by `b` deleted?
   * [106-line5.txt](./106-line5.txt): How many `str` objects are created by the execution
 of the last line in this script?
 ```
-a = "YES / NO"
-b = "YES / NO"
+a = "SCHL"
+b = "SCHL"
 del a
 del b
-c = "YES / NO"
+c = "SCHL"
 ```
